@@ -1,0 +1,172 @@
+<head>
+     <style>
+          .answerContainer {
+               background: rgb(144, 131, 131);
+               box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+          }
+
+          .answer-section {
+               cursor: pointer;
+          }
+
+          .answer-section:hover>span {
+               background-color: #585582;
+               color: #fff;
+          }
+
+          .answer-section>input {
+               transform: scale(1.3);
+               margin-right: 5px;
+          }
+
+          .wasAns {
+               background-color: #fff !important;
+               color: #000 !important;
+               border-color: transparent;
+               border-radius: 0 !important;
+          }
+
+          .paginationContainer {
+               height: 15vh;
+               overflow-y: auto;
+          }
+
+          @media (min-width: 992px) {
+               .answerContainer {
+                    height: 600px;
+                    background: rgb(144, 131, 131);
+               }
+
+               .paginationContainer {
+                    width: 40vw;
+               }
+
+               /* scrollbar css */
+               /* width */
+               .paginationContainer::-webkit-scrollbar {
+                    width: 5px;
+               }
+
+               /* Track */
+               .paginationContainer::-webkit-scrollbar-track {
+                    box-shadow: inset 0 0 5px grey;
+                    border-radius: 10px;
+               }
+
+               /* Handle */
+               .paginationContainer::-webkit-scrollbar-thumb {
+                    background: red;
+                    border-radius: 10px;
+               }
+
+               /* Handle on hover */
+               .paginationContainer::-webkit-scrollbar-thumb:hover {
+                    background: #b30000;
+               }
+          }
+
+          .pageIndexLi {
+               margin: 0 5px;
+          }
+
+          .opanow {
+               opacity: 0;
+          }
+
+          .pageIndexLi>a {
+               background-color: rgb(162, 149, 149);
+               color: #fff;
+               padding: 8px 16px;
+               text-decoration: none;
+               border-radius: 12px;
+               cursor: pointer;
+               border-color: transparent !important;
+          }
+
+          .pageIndexLi.active>a {
+               background-color: #4CAF50 !important;
+               color: white;
+          }
+
+          .pageIndexLi>a:hover:not(.active) {
+               background-color: #fff;
+               color: #000;
+               border-color: transparent;
+               border-radius: 0;
+          }
+     </style>
+</head>
+
+<div class="row mx-auto my-5">
+     <div class="row mx-auto text-white">
+          <div class="card px-0 answerContainer" id="resultShow">
+               <h4 class="mx-auto my-3 mb-4 mt-5 fs-1 text-uppercase">Thông tin tài khoản</h4>
+               <div class="resultShow text-center mx-auto px-2 mb-4">
+                    <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">
+                         Username:
+                         <span class="fw-bold text-warning ps-2">
+                              {{ accountInfor.username }}
+                         </span>
+                    </p>
+                    <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">
+                         Avatar:
+                         <span class="fw-bold text-warning ps-2">
+                              <img ng-src="./resources/image/avatar/{{ accountInfor.avatar }}" alt="avatar" </span>
+                    </p>
+                    <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">
+                         Thí sinh:
+                         <span class="fw-bold text-warning ps-2">
+                              {{ accountInfor.fullname }}
+                         </span>
+                    </p>
+                    <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">
+                         Email:
+                         <span class="fw-bold text-warning ps-2">
+                              {{ accountInfor.email }}
+                         </span>
+                    </p>
+                    <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">
+                         Gender:
+                         <span class="fw-bold text-warning ps-2" ng-show="accountInfor.gender">
+                              Nam
+                         </span>
+                         <span class="fw-bold text-warning ps-2" ng-show="!(accountInfor.gender)">
+                              Nữ
+                         </span>
+                    </p>
+                    <!-- <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">Tên
+                         quiz:
+                         <span class="fw-bold text-warning ps-2">
+                              {{ inforProgress.categoryObject.Name }}
+                         </span>
+                    </p> -->
+                    <!-- <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">Thời
+                         gian hoàn thành:
+                         <span class="fw-bold text-warning ps-2">
+                              {{ inforProgress.timeSpend }} giây
+                         </span>
+                    </p> -->
+                    <!-- <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">Số câu
+                         chính xác:
+                         <span class="fw-bold text-warning ps-2">
+                              {{ inforProgress.questionDetail.correctQuestion }} / {{
+                              inforProgress.questionDetail.correctQuestion +
+                              inforProgress.questionDetail.incorrectQuestion
+                              }} câu
+                         </span>
+                    </p>
+                    <p class="fs-4 d-flex flex-column flex-lg-row align-items-start justify-content-lg-between">Tổng
+                         điểm (thang điểm 10):
+                         <span class="fw-bold text-warning ps-2">
+                              {{ inforProgress.questionDetail.totalPoint }} đ
+                         </span>
+                    </p> -->
+               </div>
+               <!-- <div class="text-center mx-auto">
+                    <div class="alert alert-warning w-auto mx-auto d-flex align-items-center" role="alert">
+                         <i class="bi bi-exclamation-circle me-2 fs-3"></i>
+                         Hệ thống sẽ tự động lưu bài điểm cao nhất của bạn
+                    </div>
+               </div> -->
+          </div>
+     </div

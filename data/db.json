@@ -1,0 +1,1396 @@
+{
+  "inforProgress": [
+    {
+      "userId": 1,
+      "categoryObject": {
+        "id": 3,
+        "Name": "Toán lớp 3",
+        "Logo": "toanlop3.jpg",
+        "Des": "Toán dành cho học sinh lớp 3, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+      },
+      "questionDetail": {
+        "correctQuestion": 0,
+        "incorrectQuestion": 0,
+        "totalPoint": 0
+      },
+      "timeSpend": 0,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "categoryObject": {
+        "id": 1,
+        "Name": "Toán lớp 1",
+        "Logo": "toanlop1.jpg",
+        "Des": "Toán dành cho học sinh lớp 1, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+      },
+      "questionDetail": {
+        "correctQuestion": 1,
+        "incorrectQuestion": 23,
+        "totalPoint": "0.43"
+      },
+      "timeSpend": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "categoryObject": {
+        "id": 2,
+        "Name": "Toán lớp 2",
+        "Logo": "toanlop2.jpg",
+        "Des": "Toán dành cho học sinh lớp 2, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+      },
+      "questionDetail": {
+        "correctQuestion": 6,
+        "incorrectQuestion": 20,
+        "totalPoint": "3.00"
+      },
+      "timeSpend": 21,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "categoryObject": {
+        "id": 4,
+        "Name": "Toán lớp 4",
+        "Logo": "toanlop4.jpg",
+        "Des": "Toán dành cho học sinh lớp 4, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+      },
+      "questionDetail": {
+        "correctQuestion": 0,
+        "incorrectQuestion": 0,
+        "totalPoint": 0
+      },
+      "timeSpend": 0,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "categoryObject": {
+        "id": 5,
+        "Name": "Toán lớp 5",
+        "Logo": "toanlop5.png",
+        "Des": "Toán dành cho học sinh lớp 5, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+      },
+      "questionDetail": {
+        "correctQuestion": 0,
+        "incorrectQuestion": 0,
+        "totalPoint": 0
+      },
+      "timeSpend": 0,
+      "id": 5
+    }
+  ],
+  "tempInforProgress": [
+    {
+      "userId": 1,
+      "categoryObject": {
+        "id": 1,
+        "Name": "Toán lớp 1",
+        "Logo": "toanlop1.jpg",
+        "Des": "Toán dành cho học sinh lớp 1, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+      },
+      "questionDetail": {
+        "correctQuestion": 0,
+        "incorrectQuestion": 24,
+        "totalPoint": 0
+      },
+      "timeSpend": 169,
+      "id": 1
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "username": "tuannv",
+      "password": "Anhbn123@",
+      "fullname": "Nguyễn Văn Tuấn",
+      "email": "emailcuatuanph19078@fpt.edu.vn",
+      "gender": "true",
+      "birthday": "1999-11-25",
+      "schoolfee": "1500000",
+      "avatar": "avtom.jpeg",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "client1",
+      "password": "Anhbn123@",
+      "fullname": "Nguyễn Thị X",
+      "email": "no343pt@fpt.edu.vn",
+      "gender": "false",
+      "birthday": "1993-05-15",
+      "schoolfee": "2000000",
+      "avatar": "avcat.jpg",
+      "role": "member"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "Name": "Toán lớp 1",
+      "Logo": "toanlop1.jpg",
+      "Des": "Toán dành cho học sinh lớp 1, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+    },
+    {
+      "id": 2,
+      "Name": "Toán lớp 2",
+      "Logo": "toanlop2.jpg",
+      "Des": "Toán dành cho học sinh lớp 2, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+    },
+    {
+      "id": 3,
+      "Name": "Toán lớp 3",
+      "Logo": "toanlop3.jpg",
+      "Des": "Toán dành cho học sinh lớp 3, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+    },
+    {
+      "id": 4,
+      "Name": "Toán lớp 4",
+      "Logo": "toanlop4.jpg",
+      "Des": "Toán dành cho học sinh lớp 4, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+    },
+    {
+      "id": 5,
+      "Name": "Toán lớp 5",
+      "Logo": "toanlop5.png",
+      "Des": "Toán dành cho học sinh lớp 5, mỗi bài học gồm nhiều dạng câu hỏi, bài tập hoặc hoạt động được sắp xếp theo tiến trình từ dễ đến khó, hướng đến việc khám phá, phát hiện, thực hành, vận dụng giải quyết vấn đề trong thực tiễn và phù hợp với trình độ nhận thức của học sinh. Cuối mỗi chủ đề học sinh được dành thời gian tham gia hoạt động thực hành và trải nghiệm thông qua bài 'Em vui học Toán'."
+    }
+  ],
+  "question": [
+    {
+      "id": 25422,
+      "categoryId": 1,
+      "Text": "Thanh công cụ nào sau đây điều khiển việc bố trí giao diện màn hình?",
+      "Marks": 1,
+      "AnswerId": 105309,
+      "Answers": [
+        {
+          "id": 105307,
+          "Text": "Control Object"
+        },
+        {
+          "id": 105308,
+          "Text": "Layers"
+        },
+        {
+          "id": 105309,
+          "Text": "Layout"
+        },
+        {
+          "id": 105310,
+          "Text": "TestGame"
+        }
+      ]
+    },
+    {
+      "id": 25423,
+      "categoryId": 1,
+      "Text": "Trên thanh công cụ Control Object, công cụ nào cho phép di chuyển đến một khu vực nào đó trong Scene bằng cách kéo thả chuột?",
+      "Marks": 1,
+      "AnswerId": 105312,
+      "Answers": [
+        {
+          "id": 105311,
+          "Text": "Rotate tool"
+        },
+        {
+          "id": 105312,
+          "Text": "Hand tool"
+        },
+        {
+          "id": 105313,
+          "Text": "Scale tool"
+        },
+        {
+          "id": 105314,
+          "Text": "Move tool"
+        }
+      ]
+    },
+    {
+      "id": 25424,
+      "categoryId": 1,
+      "Text": "Networking không cung cấp tính năng nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105315,
+      "Answers": [
+        {
+          "id": 105315,
+          "Text": "Physics"
+        },
+        {
+          "id": 105316,
+          "Text": "Realtime Networking"
+        },
+        {
+          "id": 105317,
+          "Text": "Remote Procedure Call"
+        },
+        {
+          "id": 105318,
+          "Text": "State Synchronization"
+        }
+      ]
+    },
+    {
+      "id": 25425,
+      "categoryId": 1,
+      "Text": "Phím E là phím tắt của công cụ nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105320,
+      "Answers": [
+        {
+          "id": 105319,
+          "Text": "Hand tool"
+        },
+        {
+          "id": 105320,
+          "Text": "Rotate tool"
+        },
+        {
+          "id": 105321,
+          "Text": "Scale tool"
+        },
+        {
+          "id": 105322,
+          "Text": "Move tool"
+        }
+      ]
+    },
+    {
+      "id": 25426,
+      "categoryId": 1,
+      "Text": "Phím tắt nào sau đây được dùng để đổi tên đối tượng nhanh?",
+      "Marks": 1,
+      "AnswerId": 105323,
+      "Answers": [
+        {
+          "id": 105323,
+          "Text": "F2"
+        },
+        {
+          "id": 105324,
+          "Text": "F"
+        },
+        {
+          "id": 105325,
+          "Text": "Cmd"
+        },
+        {
+          "id": 105326,
+          "Text": "Enter"
+        }
+      ]
+    },
+    {
+      "id": 25427,
+      "categoryId": 1,
+      "Text": "Phím R là phím tắt của công cụ nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105328,
+      "Answers": [
+        {
+          "id": 105327,
+          "Text": "Hand tool"
+        },
+        {
+          "id": 105328,
+          "Text": "Scale tool"
+        },
+        {
+          "id": 105329,
+          "Text": "Move tool"
+        },
+        {
+          "id": 105330,
+          "Text": "Rotate tool"
+        }
+      ]
+    },
+    {
+      "id": 25428,
+      "categoryId": 1,
+      "Text": "Ngôn ngữ nào không được sử dụng trong Unity?",
+      "Marks": 1,
+      "AnswerId": 105334,
+      "Answers": [
+        {
+          "id": 105331,
+          "Text": "Java script"
+        },
+        {
+          "id": 105332,
+          "Text": "C#"
+        },
+        {
+          "id": 105333,
+          "Text": "Boo"
+        },
+        {
+          "id": 105334,
+          "Text": "php"
+        }
+      ]
+    },
+    {
+      "id": 25429,
+      "categoryId": 1,
+      "Text": "Unity hỗ trợ tính năng nào cho phép tạo ra cây cối với hình dạng, kích thước và kiểu dáng đa dạng?",
+      "Marks": 1,
+      "AnswerId": 105338,
+      "Answers": [
+        {
+          "id": 105335,
+          "Text": "Rendering"
+        },
+        {
+          "id": 105336,
+          "Text": "Programming"
+        },
+        {
+          "id": 105337,
+          "Text": "Physics"
+        },
+        {
+          "id": 105338,
+          "Text": "Terrains"
+        }
+      ]
+    },
+    {
+      "id": 25430,
+      "categoryId": 1,
+      "Text": "Để tạo mới một Folder ta vào menu nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105340,
+      "Answers": [
+        {
+          "id": 105339,
+          "Text": "GameObject"
+        },
+        {
+          "id": 105340,
+          "Text": "Assets"
+        },
+        {
+          "id": 105341,
+          "Text": "Component"
+        },
+        {
+          "id": 105342,
+          "Text": "File"
+        }
+      ]
+    },
+    {
+      "id": 25431,
+      "categoryId": 1,
+      "Text": "Phím Q là phím tắt của công cụ nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105346,
+      "Answers": [
+        {
+          "id": 105343,
+          "Text": "Scale tool"
+        },
+        {
+          "id": 105344,
+          "Text": "Move tool"
+        },
+        {
+          "id": 105345,
+          "Text": "Rotate tool"
+        },
+        {
+          "id": 105346,
+          "Text": "Hand tool"
+        }
+      ]
+    },
+    {
+      "id": 25432,
+      "categoryId": 1,
+      "Text": "Để tạo mới một Scene ta vào menu nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105350,
+      "Answers": [
+        {
+          "id": 105347,
+          "Text": "Assets"
+        },
+        {
+          "id": 105348,
+          "Text": "GameObject"
+        },
+        {
+          "id": 105349,
+          "Text": "Edit"
+        },
+        {
+          "id": 105350,
+          "Text": "File"
+        }
+      ]
+    },
+    {
+      "id": 25433,
+      "categoryId": 1,
+      "Text": "Phím W là phím tắt của công cụ nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105352,
+      "Answers": [
+        {
+          "id": 105351,
+          "Text": "Scale tool"
+        },
+        {
+          "id": 105352,
+          "Text": "Move tool"
+        },
+        {
+          "id": 105353,
+          "Text": "Hand tool"
+        },
+        {
+          "id": 105354,
+          "Text": "Rotate tool"
+        }
+      ]
+    },
+    {
+      "id": 25434,
+      "categoryId": 1,
+      "Text": "Unity có bao nhiêu đặc điểm nào?",
+      "Marks": 1,
+      "AnswerId": 105358,
+      "Answers": [
+        {
+          "id": 105355,
+          "Text": "8"
+        },
+        {
+          "id": 105356,
+          "Text": "5"
+        },
+        {
+          "id": 105357,
+          "Text": "6"
+        },
+        {
+          "id": 105358,
+          "Text": "7"
+        }
+      ]
+    },
+    {
+      "id": 25435,
+      "categoryId": 1,
+      "Text": "Đâu là nơi chứa danh sách các GameObject trong scene?",
+      "Marks": 1,
+      "AnswerId": 105362,
+      "Answers": [
+        {
+          "id": 105359,
+          "Text": "Project"
+        },
+        {
+          "id": 105360,
+          "Text": "Scene"
+        },
+        {
+          "id": 105361,
+          "Text": "Inspector"
+        },
+        {
+          "id": 105362,
+          "Text": "Hierachy"
+        }
+      ]
+    },
+    {
+      "id": 25436,
+      "categoryId": 1,
+      "Text": "Đâu không phải là giao diện của unity?",
+      "Marks": 1,
+      "AnswerId": 105365,
+      "Answers": [
+        {
+          "id": 105363,
+          "Text": "Hierachy"
+        },
+        {
+          "id": 105364,
+          "Text": "Project"
+        },
+        {
+          "id": 105365,
+          "Text": "Physics"
+        },
+        {
+          "id": 105366,
+          "Text": "Inspector"
+        }
+      ]
+    },
+    {
+      "id": 25437,
+      "categoryId": 1,
+      "Text": "Mỗi game có thể có bao nhiêu scene?",
+      "Marks": 1,
+      "AnswerId": 105367,
+      "Answers": [
+        {
+          "id": 105367,
+          "Text": "N"
+        },
+        {
+          "id": 105368,
+          "Text": "2"
+        },
+        {
+          "id": 105369,
+          "Text": "1"
+        },
+        {
+          "id": 105370,
+          "Text": "0"
+        }
+      ]
+    },
+    {
+      "id": 25438,
+      "categoryId": 1,
+      "Text": "Để tạo mới một Thư mục Asset ta thực hiện trong cửa sổ nào sau đây?",
+      "Marks": 1,
+      "AnswerId": 105371,
+      "Answers": [
+        {
+          "id": 105371,
+          "Text": "Project"
+        },
+        {
+          "id": 105372,
+          "Text": "Inspector"
+        },
+        {
+          "id": 105373,
+          "Text": "Hierachy"
+        },
+        {
+          "id": 105374,
+          "Text": "Scene"
+        }
+      ]
+    },
+    {
+      "id": 25439,
+      "categoryId": 1,
+      "Text": "Trong Scene, công cụ dùng để điều chỉnh tỷ lệ là công cụ nào?",
+      "Marks": 1,
+      "AnswerId": 105378,
+      "Answers": [
+        {
+          "id": 105375,
+          "Text": "Hand tool"
+        },
+        {
+          "id": 105376,
+          "Text": "Rotate tool"
+        },
+        {
+          "id": 105377,
+          "Text": "Move tool"
+        },
+        {
+          "id": 105378,
+          "Text": "Scale tool"
+        }
+      ]
+    },
+    {
+      "id": 25440,
+      "categoryId": 1,
+      "Text": "Thông tin về vị trí, góc xoay và tỷ lệ của đối tượng được quy định trong thành phần nào?",
+      "Marks": 1,
+      "AnswerId": 105382,
+      "Answers": [
+        {
+          "id": 105379,
+          "Text": "Physics"
+        },
+        {
+          "id": 105380,
+          "Text": "UI"
+        },
+        {
+          "id": 105381,
+          "Text": "Script"
+        },
+        {
+          "id": 105382,
+          "Text": "Transform"
+        }
+      ]
+    },
+    {
+      "id": 25441,
+      "categoryId": 1,
+      "Text": "Tất cả các tập tin, thư mục của các dự án Unity đều được lưu trữ trong một thư mục có tên là?",
+      "Marks": 1,
+      "AnswerId": 105384,
+      "Answers": [
+        {
+          "id": 105383,
+          "Text": "GameObject"
+        },
+        {
+          "id": 105384,
+          "Text": "Assets"
+        },
+        {
+          "id": 105385,
+          "Text": "Scenes"
+        },
+        {
+          "id": 105386,
+          "Text": "ProjectSettings"
+        }
+      ]
+    },
+    {
+      "id": 25442,
+      "categoryId": 1,
+      "Text": "Để lựa chọn một Sprite Render cho Empty GameObject ta thực hiện như sau:",
+      "Marks": 1,
+      "AnswerId": 105390,
+      "Answers": [
+        {
+          "id": 105387,
+          "Text": "Component/Rendering/Sprite Renderer"
+        },
+        {
+          "id": 105388,
+          "Text": "ObjectGame/Rendering/Sprite Renderer"
+        },
+        {
+          "id": 105389,
+          "Text": "Add Component/Sprite Renderer"
+        },
+        {
+          "id": 105390,
+          "Text": "Add Component/Rendering/Sprite Renderer"
+        }
+      ]
+    },
+    {
+      "id": 25443,
+      "categoryId": 1,
+      "Text": "Với kiểu nào, Unity editor sẽ tự động tìm những hình ảnh khác nhau hoặc có thể dùng chuột để chọn vùng ảnh mà ta cần cắt?",
+      "Marks": 1,
+      "AnswerId": 105392,
+      "Answers": [
+        {
+          "id": 105391,
+          "Text": "Cả 2 phương án trên đều sai"
+        },
+        {
+          "id": 105392,
+          "Text": "Automatic"
+        },
+        {
+          "id": 105393,
+          "Text": "Cả 2 phương án trên đều đúng"
+        },
+        {
+          "id": 105394,
+          "Text": "Grid"
+        }
+      ]
+    },
+    {
+      "id": 25444,
+      "categoryId": 1,
+      "Text": "Trong Sprite Editor, khi click vào nút Slice ta có thể cắt ảnh theo mấy kiểu?",
+      "Marks": 1,
+      "AnswerId": 105397,
+      "Answers": [
+        {
+          "id": 105395,
+          "Text": "3"
+        },
+        {
+          "id": 105396,
+          "Text": "4"
+        },
+        {
+          "id": 105397,
+          "Text": "2"
+        },
+        {
+          "id": 105398,
+          "Text": "5"
+        }
+      ]
+    },
+    {
+      "id": 25445,
+      "categoryId": 1,
+      "Text": "Đâu là một đối tượng chứa các đối tượng con khác, gắn liền với nhau?",
+      "Marks": 1,
+      "AnswerId": 105399,
+      "Answers": [
+        {
+          "id": 105399,
+          "Text": "Parent object"
+        },
+        {
+          "id": 105400,
+          "Text": "Empty Object"
+        },
+        {
+          "id": 105401,
+          "Text": "3D Object"
+        },
+        {
+          "id": 105402,
+          "Text": "Child object"
+        }
+      ]
+    },
+    {
+      "id": 25106,
+      "categoryId": 2,
+      "Text": "Có mấy loại Service?",
+      "Marks": 1,
+      "AnswerId": 104121,
+      "Answers": [
+        {
+          "id": 104118,
+          "Text": "3"
+        },
+        {
+          "id": 104119,
+          "Text": "4"
+        },
+        {
+          "id": 104120,
+          "Text": "1"
+        },
+        {
+          "id": 104121,
+          "Text": "2"
+        }
+      ]
+    },
+    {
+      "id": 25107,
+      "categoryId": 2,
+      "Text": "Trong IntentService, phương thức onHandlerIntent sẽ được tự động gọi trong phương thức nào?",
+      "Marks": 1,
+      "AnswerId": 104124,
+      "Answers": [
+        {
+          "id": 104122,
+          "Text": "onServiceConnected()"
+        },
+        {
+          "id": 104123,
+          "Text": "onServiceDisConnected()"
+        },
+        {
+          "id": 104124,
+          "Text": "onStartCommand()"
+        },
+        {
+          "id": 104125,
+          "Text": "onBind()"
+        }
+      ]
+    },
+    {
+      "id": 25108,
+      "categoryId": 2,
+      "Text": "Khi nào phương thức ServiceConnection.onServiceConnected được gọi?",
+      "Marks": 1,
+      "AnswerId": 104126,
+      "Answers": [
+        {
+          "id": 104126,
+          "Text": "Sau khi một thành phần gọi Context.startService()"
+        },
+        {
+          "id": 104127,
+          "Text": "Sau khi một thành phần gọi Context.bindService()"
+        },
+        {
+          "id": 104128,
+          "Text": "Sau khi BroadcastReceiver nhận một Intent được gửi bởi Service"
+        },
+        {
+          "id": 104129,
+          "Text": "Khi một Service gọi Context.startActivity()"
+        }
+      ]
+    },
+    {
+      "id": 25109,
+      "categoryId": 2,
+      "Text": "Phương thức Service.stopSelf(int startid) có tham số kiểu int. Tham số này dùng để làm gì?",
+      "Marks": 1,
+      "AnswerId": 104132,
+      "Answers": [
+        {
+          "id": 104130,
+          "Text": "Nếu startid khác 0, Service sẽ bị hủy một cách vô điều kiện"
+        },
+        {
+          "id": 104131,
+          "Text": "Tham số miêu tả số miliseconds bị trì hoãn trước khi Service bị hủy"
+        },
+        {
+          "id": 104132,
+          "Text": "Là start identifier gần nhất nhận được bởi lời gọi onStart(Intent, int)"
+        },
+        {
+          "id": 104133,
+          "Text": "Được sử dụng để dừng Service nếu Service đang chạy trong process id với process id bằng giá trị startid"
+        }
+      ]
+    },
+    {
+      "id": 25110,
+      "categoryId": 2,
+      "Text": "Câu nào là đúng khi đề cập đến Service?",
+      "Marks": 1,
+      "AnswerId": 104137,
+      "Answers": [
+        {
+          "id": 104134,
+          "Text": "Các ứng dụng khác nhau không thể truy cập đến các Service của chính nó"
+        },
+        {
+          "id": 104135,
+          "Text": "Tất cả phương án đều đúng"
+        },
+        {
+          "id": 104136,
+          "Text": "Lớp Service luôn luôn được truy cập bởi tất cả ứng dụng Android khác cài trên thiết bị"
+        },
+        {
+          "id": 104137,
+          "Text": "Service có thể chạy nền vô hạn kể cả khi thành phần khởi tạo Service đã bị hủy"
+        }
+      ]
+    },
+    {
+      "id": 25111,
+      "categoryId": 2,
+      "Text": "Trong IntentService, onBind mặc định trả lại giá trị nào?",
+      "Marks": 1,
+      "AnswerId": 104139,
+      "Answers": [
+        {
+          "id": 104138,
+          "Text": "-1"
+        },
+        {
+          "id": 104139,
+          "Text": "null"
+        },
+        {
+          "id": 104140,
+          "Text": "0"
+        },
+        {
+          "id": 104141,
+          "Text": "Dừng chương trình"
+        }
+      ]
+    },
+    {
+      "id": 25112,
+      "categoryId": 2,
+      "Text": "Phương thức stopSelf dùng để làm gì?",
+      "Marks": 1,
+      "AnswerId": 104145,
+      "Answers": [
+        {
+          "id": 104142,
+          "Text": "Dừng thông báo notification tới người dùng"
+        },
+        {
+          "id": 104143,
+          "Text": "Dừng chương trình"
+        },
+        {
+          "id": 104144,
+          "Text": "Dừng kết nối Service với Sqlite"
+        },
+        {
+          "id": 104145,
+          "Text": "Dừng Service"
+        }
+      ]
+    },
+    {
+      "id": 25113,
+      "categoryId": 2,
+      "Text": "Phương thức onStartCommand được gọi khi nào?",
+      "Marks": 1,
+      "AnswerId": 104149,
+      "Answers": [
+        {
+          "id": 104146,
+          "Text": "Khi phương thức bindService được gọi"
+        },
+        {
+          "id": 104147,
+          "Text": "Khi phương thức stopSelf được gọi"
+        },
+        {
+          "id": 104148,
+          "Text": "Khi phương thức onBind được gọi"
+        },
+        {
+          "id": 104149,
+          "Text": "Khi phương thức startService được gọi"
+        }
+      ]
+    },
+    {
+      "id": 25114,
+      "categoryId": 2,
+      "Text": "Bạn nên giải phóng tài nguyên mà Service sử dụng trong phương thức nào?",
+      "Marks": 1,
+      "AnswerId": 104152,
+      "Answers": [
+        {
+          "id": 104150,
+          "Text": "onPause"
+        },
+        {
+          "id": 104151,
+          "Text": "pauseService"
+        },
+        {
+          "id": 104152,
+          "Text": "onDestroy"
+        },
+        {
+          "id": 104153,
+          "Text": "startService"
+        }
+      ]
+    },
+    {
+      "id": 25115,
+      "categoryId": 2,
+      "Text": "Để hủy Service dùng phương thức nào?",
+      "Marks": 1,
+      "AnswerId": 104155,
+      "Answers": [
+        {
+          "id": 104154,
+          "Text": "PauseService"
+        },
+        {
+          "id": 104155,
+          "Text": "StopService"
+        },
+        {
+          "id": 104156,
+          "Text": "PauseServices"
+        },
+        {
+          "id": 104157,
+          "Text": "StopServices"
+        }
+      ]
+    },
+    {
+      "id": 25116,
+      "categoryId": 2,
+      "Text": "Làm thế nào để disable một Broadcast Receiver khi nó đã được đăng ký trong AndroidManifest.xml?",
+      "Marks": 1,
+      "AnswerId": 104161,
+      "Answers": [
+        {
+          "id": 104158,
+          "Text": "Sử dụng lớp PackageReceiverManager"
+        },
+        {
+          "id": 104159,
+          "Text": "Sử dụng lớp BroadcastReceiver"
+        },
+        {
+          "id": 104160,
+          "Text": "Sử dụng lớp BroadcastReceiverManger"
+        },
+        {
+          "id": 104161,
+          "Text": "Sử dụng lớp PackageManager"
+        }
+      ]
+    },
+    {
+      "id": 25117,
+      "categoryId": 2,
+      "Text": "Có mấy cách phát, nhận broadcast receiver?",
+      "Marks": 1,
+      "AnswerId": 104163,
+      "Answers": [
+        {
+          "id": 104162,
+          "Text": "1"
+        },
+        {
+          "id": 104163,
+          "Text": "2"
+        },
+        {
+          "id": 104164,
+          "Text": "4"
+        },
+        {
+          "id": 104165,
+          "Text": "3"
+        }
+      ]
+    },
+    {
+      "id": 25118,
+      "categoryId": 2,
+      "Text": "Khi sử dụng Intent.ACTION_BOOT_COMPLETED, hệ thống sẽ broadcast mấy lần?",
+      "Marks": 1,
+      "AnswerId": 104167,
+      "Answers": [
+        {
+          "id": 104166,
+          "Text": "4"
+        },
+        {
+          "id": 104167,
+          "Text": "1"
+        },
+        {
+          "id": 104168,
+          "Text": "3"
+        },
+        {
+          "id": 104169,
+          "Text": "2"
+        }
+      ]
+    },
+    {
+      "id": 25119,
+      "categoryId": 2,
+      "Text": "Vòng đời của Broadcast Receiver bao gồm mấy phương thức?",
+      "Marks": 1,
+      "AnswerId": 104170,
+      "Answers": [
+        {
+          "id": 104170,
+          "Text": "1"
+        },
+        {
+          "id": 104171,
+          "Text": "2"
+        },
+        {
+          "id": 104172,
+          "Text": "4"
+        },
+        {
+          "id": 104173,
+          "Text": "3"
+        }
+      ]
+    },
+    {
+      "id": 25120,
+      "categoryId": 2,
+      "Text": "Lệnh sau dùng để làm gì?",
+      "Marks": 1,
+      "AnswerId": 104177,
+      "Answers": [
+        {
+          "id": 104174,
+          "Text": "Disable receiver MyCallReceiver"
+        },
+        {
+          "id": 104175,
+          "Text": "Khai báo MyCallReceiver là broadcast hệ thống"
+        },
+        {
+          "id": 104176,
+          "Text": "Cho phép ứng dụng Calendar của hệ thống gửi broadcast tới receiver MyCallReceiver"
+        },
+        {
+          "id": 104177,
+          "Text": "Cấm ứng dụng khác gửi broadcast tới receiver MyCallReceiver"
+        }
+      ]
+    },
+    {
+      "id": 25121,
+      "categoryId": 2,
+      "Text": "Nếu ứng dụng của bạn ở trạng thái foreground, bạn chỉ muốn ứng dụng chỉ nhận broadcast nhất định khi nó active, bạn phải làm gì?",
+      "Marks": 1,
+      "AnswerId": 104181,
+      "Answers": [
+        {
+          "id": 104178,
+          "Text": "Load Intent thông qua menu hoặc Action Bar"
+        },
+        {
+          "id": 104179,
+          "Text": "Đăng ký BroadcastReceiver với mức độ ưu tiên thấp"
+        },
+        {
+          "id": 104180,
+          "Text": "Đăng ký động BroadcastReceiver với mức độ ưu tiếp thấp.Sử dụng abortBroadcast lúc runtime để ngăn cản gửi"
+        },
+        {
+          "id": 104181,
+          "Text": "Đăng ký động BroadcastReceiver trong onResume và hủy đăng ký trong onPause"
+        }
+      ]
+    },
+    {
+      "id": 25122,
+      "categoryId": 2,
+      "Text": "Broadcast Intent thông thường sẽ biến mất khi hệ thống xử lý xong?",
+      "Marks": 1,
+      "AnswerId": 104183,
+      "Answers": [
+        {
+          "id": 104182,
+          "Text": "Sai"
+        },
+        {
+          "id": 104183,
+          "Text": "Đúng"
+        }
+      ]
+    },
+    {
+      "id": 25123,
+      "categoryId": 2,
+      "Text": "Phương thức onReceive có mấy tham số đầu vào?",
+      "Marks": 1,
+      "AnswerId": 104184,
+      "Answers": [
+        {
+          "id": 104184,
+          "Text": "2"
+        },
+        {
+          "id": 104185,
+          "Text": "4"
+        },
+        {
+          "id": 104186,
+          "Text": "1"
+        },
+        {
+          "id": 104187,
+          "Text": "3"
+        }
+      ]
+    },
+    {
+      "id": 25124,
+      "categoryId": 2,
+      "Text": "Phương thức nào được sử dụng để gửi broadcast intent mà intent này sẽ không mất đi sau khi hệ thống xử lý?",
+      "Marks": 1,
+      "AnswerId": 104191,
+      "Answers": [
+        {
+          "id": 104188,
+          "Text": "Context.sendStickyBroadcast"
+        },
+        {
+          "id": 104189,
+          "Text": "Context.sendingStickyBroadcast"
+        },
+        {
+          "id": 104190,
+          "Text": "Context.sendingStickyBroadcastIntent"
+        },
+        {
+          "id": 104191,
+          "Text": "Context.sendStickyBroadcastIntent"
+        }
+      ]
+    },
+    {
+      "id": 25125,
+      "categoryId": 2,
+      "Text": "Để nhận thông tin người dùng qua wifi, phải sử dụng gì?",
+      "Marks": 1,
+      "AnswerId": 104192,
+      "Answers": [
+        {
+          "id": 104192,
+          "Text": "LocationManager.NETWORK_PROViDER"
+        },
+        {
+          "id": 104193,
+          "Text": "LocationManager.WIFI_PROViDER"
+        },
+        {
+          "id": 104194,
+          "Text": "LocationManager.GPS_PROViDER"
+        },
+        {
+          "id": 104195,
+          "Text": "LocationManager.CELLUAR_PROViDER"
+        }
+      ]
+    },
+    {
+      "id": 25126,
+      "categoryId": 2,
+      "Text": "Phương thức callback nào gọi khi vị trí người dùng thay đổi?",
+      "Marks": 1,
+      "AnswerId": 104196,
+      "Answers": [
+        {
+          "id": 104196,
+          "Text": "onLocationChanged"
+        },
+        {
+          "id": 104197,
+          "Text": "onCurrentLocationChanged"
+        },
+        {
+          "id": 104198,
+          "Text": "onLocationChange"
+        },
+        {
+          "id": 104199,
+          "Text": "onCurentLocationChange"
+        }
+      ]
+    },
+    {
+      "id": 25127,
+      "categoryId": 2,
+      "Text": "Khi tạo ứng dụng trên trang developer của Facebook, ngoài thông tin username và password, người dùng phải nhập thêm thông tin gì?",
+      "Marks": 1,
+      "AnswerId": 104203,
+      "Answers": [
+        {
+          "id": 104200,
+          "Text": "Không cần thêm thông tin nào"
+        },
+        {
+          "id": 104201,
+          "Text": "app id"
+        },
+        {
+          "id": 104202,
+          "Text": "certificate"
+        },
+        {
+          "id": 104203,
+          "Text": "key hash"
+        }
+      ]
+    },
+    {
+      "id": 25128,
+      "categoryId": 2,
+      "Text": "Để đăng nhập ứng dụng Facebook từ ứng dụng Android, Facebook SDK yêu cầu gì?",
+      "Marks": 1,
+      "AnswerId": 104207,
+      "Answers": [
+        {
+          "id": 104204,
+          "Text": "Không có yêu cầu nào"
+        },
+        {
+          "id": 104205,
+          "Text": "Sử dụng Google social API"
+        },
+        {
+          "id": 104206,
+          "Text": "Sử dụng Facebook Graph API"
+        },
+        {
+          "id": 104207,
+          "Text": "Thiết bị phải cài đặt ứng dụng native Facebook"
+        }
+      ]
+    },
+    {
+      "id": 25129,
+      "categoryId": 2,
+      "Text": "Có thể cài đặt ứng dụng native Facebook trên Emulator không?",
+      "Marks": 1,
+      "AnswerId": 104208,
+      "Answers": [
+        {
+          "id": 104208,
+          "Text": "Có thể"
+        },
+        {
+          "id": 104209,
+          "Text": "Không thể"
+        }
+      ]
+    },
+    {
+      "id": 25130,
+      "categoryId": 2,
+      "Text": "Để lấy thông tin vị trí người dùng sử dụng GPS_PROViDER, phải thêm permission nào vào Android manifest file?",
+      "Marks": 1,
+      "AnswerId": 104213,
+      "Answers": [
+        {
+          "id": 104210,
+          "Text": "android.permission.USE_CREDENTIALS"
+        },
+        {
+          "id": 104211,
+          "Text": "android.permission.android.permission.ACCESS_MOCK_LOCATION"
+        },
+        {
+          "id": 104212,
+          "Text": "android.permission.INTERNET"
+        },
+        {
+          "id": 104213,
+          "Text": "android.permission.ACCESS_FINE_LOCATION"
+        }
+      ]
+    },
+    {
+      "id": 25131,
+      "categoryId": 2,
+      "Text": "Để đăng nhập ứng dụng Facebook từ ứng dụng Android, phải thêm Activity nào vào Android manifest?",
+      "Marks": 1,
+      "AnswerId": 104215,
+      "Answers": [
+        {
+          "id": 104214,
+          "Text": "com.facebook.SingleSignInActivity"
+        },
+        {
+          "id": 104215,
+          "Text": "com.facebook.LoginActivity"
+        },
+        {
+          "id": 104216,
+          "Text": "com.facebook.SignInActivity"
+        },
+        {
+          "id": 104217,
+          "Text": "com.facebook.SignOnActivity"
+        }
+      ]
+    }
+  ]
+}

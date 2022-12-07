@@ -1,0 +1,188 @@
+<head>
+     <style>
+          .answerContainer {
+               box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          }
+
+          .answer-section {
+               cursor: pointer;
+          }
+
+          .answer-section:hover>span {
+               background-color: #585582;
+               color: #fff;
+          }
+
+          .answer-section>input {
+               transform: scale(1.3);
+               margin-right: 5px;
+          }
+
+          .wasAns {
+               background-color: #fff !important;
+               color: #000 !important;
+               border-color: transparent;
+               border-radius: 0 !important;
+          }
+
+          .paginationContainer {
+               height: 15vh;
+               overflow-y: auto;
+          }
+
+          @media (min-width: 992px) {
+               .answerContainer {
+                    height: 600px;
+                    background: rgb(255, 255, 255);
+               }
+
+               .paginationContainer {
+                    width: 40vw;
+               }
+
+               /* scrollbar css */
+               /* width */
+               .paginationContainer::-webkit-scrollbar {
+                    width: 5px;
+               }
+
+               /* Track */
+               .paginationContainer::-webkit-scrollbar-track {
+                    box-shadow: inset 0 0 5px grey;
+                    border-radius: 10px;
+               }
+
+               /* Handle */
+               .paginationContainer::-webkit-scrollbar-thumb {
+                    background: red;
+                    border-radius: 10px;
+               }
+
+               /* Handle on hover */
+               .paginationContainer::-webkit-scrollbar-thumb:hover {
+                    background: #b30000;
+               }
+          }
+
+          .pageIndexLi {
+               margin: 0 5px;
+          }
+
+          .opanow {
+               opacity: 0;
+          }
+
+          .pageIndexLi>a {
+               background-color: rgb(162, 149, 149);
+               color: #fff;
+               padding: 8px 16px;
+               text-decoration: none;
+               border-radius: 12px;
+               cursor: pointer;
+               border-color: transparent !important;
+          }
+
+          .pageIndexLi.active>a {
+               background-color: #4CAF50 !important;
+               color: white;
+          }
+
+          .pageIndexLi>a:hover:not(.active) {
+               background-color: #fff;
+               color: #000;
+               border-color: transparent;
+               border-radius: 0;
+          }
+     </style>
+</head>
+
+<div class="row mx-auto my-5">
+     <div class="row mx-auto">
+          <div class="card px-0 answerContainer">
+               <div
+                    class="card-header bg-warning text-white py-lg-4 py-3 text-uppercase user-select-none d-flex align-items-start justify-content-between">
+                    <p class="fw-bold fs-4">
+                         <i class="bi bi-pin-angle-fill"></i>
+                         {{ inforProgress.categoryObject.Name }}
+                         <br>
+                         <span class="text-muted text-capitalize small fs-6 fst-italic">
+                              * Có thể nộp bài sớm bằng nút "Nộp Bài"
+                         </span>
+                    </p>
+                    <a class="btn btn-secondary px-lg-5" ng-click="checkQuizSubmit(1)">Nộp bài</a>
+               </div>
+
+               <div class="card-body mb-4" ng-repeat="item in showAll | limitTo : itemEachPage : beginPage">
+                    <div class="card-title py-4 d-flex flex-lg-row flex-column justify-content-between align-content-start"
+                         style="border-bottom: 2px solid rgb(231, 158, 131)">
+                         <h5 class="user-select-none mb-0">
+                              {{ item.Text }}
+                         </h5>
+                         <div class="timeRemain d-flex align-items-start mt-3 mt-lg-0 ms-2 ms-lg-0">
+                              <span id="quizTimeDisplay" class="timeRemain badge bg-danger py-2 px-4 fs-6 ms-auto">
+                                   <div class="spinner-border text-white" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                   </div>
+                              </span>
+                         </div>
+                    </div>
+                    <div class="card-text my-4">
+                         <label class="m-0 mb-1 py-2 d-flex align-items-center answer-section text-break"
+                              ng-repeat="ans in item.Answers">
+                              <input type="radio" ng-click="saveAns(item.id, ans.id)" value="{{ ans.id }}"
+                                   name="shipToAddress" ng-checked="questListObject[beginPage].ansId == ans.id">
+                              <span class="px-3 user-select-none">{{ ans.Text }}</span>
+                         </label>
+                    </div>
+               </div>
+               <div class="card-footer bg-secondary text-capitalize text-white p-0">
+                    <div class="progress mx-auto p-0 bg-secondary" style="height: 100%; width: 100%;">
+                         <div class="p-3 progress-bar progress-bar-striped progress-bar-animated bg-success fw-bold"
+                              role="progressbar" aria-label="Animated striped example" aria-valuenow="50"
+                              aria-valuemin="0" aria-valuemax="100" ng-style="nowProgress">
+                              <span class="user-select-none">
+                                   đã xong {{ lastResult }}/{{ goalProgress }}
+                              </span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="row mx-auto mt-5">
+          <nav class="d-flex flex-column flex-wrap" aria-label="Page navigation">
+               <ul
+                    class="px-lg-5 pagination justify-content-center align-items-center flex-wrap flex-column flex-lg-row">
+                    <li class="page-item me-lg-4 my-2 pageIndexLi" ng-click="paginatingFunc(beginPage - itemEachPage)"
+                         ng-class="{opanow: (beginPage-itemEachPage < 0)}">
+                         <a
+                              class="user-select-none bg-warning page-link d-flex flex-column justify-content-center align-items-center">
+                              Previous
+                              <i class="bi bi-chevron-left"></i>
+                         </a>
+                    </li>
+
+                    <div
+                         class="paginationContainer my-2 mx-lg-5 px-lg-5 d-flex justify-content-center align-items-center flex-wrap">
+                         <li class="page-item m-1 pageIndexLi" ng-repeat="(index, value) in showAll"
+                              ng-if="index % itemEachPage == 0" ng-click="paginatingFunc(index)">
+                              <a class="user-select-none page-link"
+                                   ng-class="{wasAns: (questListObject[index / itemEachPage].ansId != -1)}">
+                                   {{ index / itemEachPage + 1 }}
+                              </a>
+                         </li>
+                    </div>
+
+                    <li class="page-item ms-lg-4 my-2 pageIndexLi" ng-click="paginatingFunc(beginPage + itemEachPage)"
+                         ng-class="{opanow: (beginPage+itemEachPage>=showAll.length)}">
+                         <a
+                              class="user-select-none bg-warning page-link d-flex flex-column justify-content-center align-items-center">
+                              Next
+                              <i class="ps-2 bi-chevron-right"></i>
+                         </a>
+                    </li>
+                    <div ng-if="activeIndexPage()"></div>
+               </ul>
+          </nav>
+     </div>
+</div>

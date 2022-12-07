@@ -1,0 +1,174 @@
+<head>
+     <style>
+          .answerContainer {
+               background: rgb(144, 131, 131);
+               box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+          }
+
+          .answer-section {
+               cursor: pointer;
+          }
+
+          .answer-section:hover>span {
+               background-color: #585582;
+               color: #fff;
+          }
+
+          .answer-section>input {
+               transform: scale(1.3);
+               margin-right: 5px;
+          }
+
+          .wasAns {
+               background-color: #fff !important;
+               color: #000 !important;
+               border-color: transparent;
+               border-radius: 0 !important;
+          }
+
+          .paginationContainer {
+               height: 15vh;
+               overflow-y: auto;
+          }
+
+          @media (min-width: 992px) {
+               .answerContainer {
+                    height: 600px;
+                    background: rgb(144, 131, 131);
+               }
+
+               .paginationContainer {
+                    width: 40vw;
+               }
+
+               /* scrollbar css */
+               /* width */
+               .paginationContainer::-webkit-scrollbar {
+                    width: 5px;
+               }
+
+               /* Track */
+               .paginationContainer::-webkit-scrollbar-track {
+                    box-shadow: inset 0 0 5px grey;
+                    border-radius: 10px;
+               }
+
+               /* Handle */
+               .paginationContainer::-webkit-scrollbar-thumb {
+                    background: red;
+                    border-radius: 10px;
+               }
+
+               /* Handle on hover */
+               .paginationContainer::-webkit-scrollbar-thumb:hover {
+                    background: #b30000;
+               }
+          }
+
+          .pageIndexLi {
+               margin: 0 5px;
+          }
+
+          .opanow {
+               opacity: 0;
+          }
+
+          #email,
+          #password {
+               background-color: #eef2f3;
+               width: 100% !important;
+          }
+
+          #email::placeholder,
+          #password::placeholder {
+               color: #9b9fa0;
+               font-weight: 700;
+               font-size: 18px;
+          }
+     </style>
+</head>
+
+<div class="row mx-auto my-5">
+     <div class="card px-0 answerContainer" style="min-height: 100vh;" id="resultShow">
+          <!-- <div class="text-center mx-auto">
+                    <div class="alert alert-warning w-auto mx-auto d-flex align-items-center" role="alert">
+                         <i class="bi bi-exclamation-circle me-2 fs-3"></i>
+                         Hệ thống sẽ tự động lưu bài điểm cao nhất của bạn
+                    </div>
+               </div> -->
+
+          <div class="row mx-auto justify-content-lg-between px-lg-5 pt-lg-3 mt-lg-5">
+               <div class="d-none d-lg-block col-12 col-lg-5 mt-4 pt-lg-5 px-4 px-lg-0 user-select-none">
+                    <h2 class="fw-bold pe-lg-5" style="font-size: 4rem;color: #2dbe60;">
+                         QuizDi website quiz tốt nhất thế giới <span>!</span>
+                    </h2>
+                    <span class="mt-3 mt-lg-5 d-block fs-5 fw-light pe-lg-5 text-white-50">
+                         Đăng nhập để mở được nhiều chức năng cực kì hay ho nhé~
+                    </span>
+               </div>
+               <div
+                    class="col-12 col-lg-6 mt-5 mt-lg-0 d-lg-block d-flex flex-column align-items-center text-uppercase">
+                    <h3 class="fs-1 fw-bolder user-select-none border-bottom border-3 border-info pb-3 pe-lg-5"
+                         style="width: fit-content;">
+                         Đăng Nhập
+                    </h3>
+                    <button
+                         class="my-3 mt-4 btn border border-3 text-capitalize border-warning fs-5 fw-bold text-white text-center pe-lg-5 py-lg-2 w-auto ms-lg-auto d-block">
+                         <span class="text-success pe-lg-3 d-none d-lg-inline">
+                              <i class="bi bi-google text-warning"></i>
+                         </span>
+                         Đăng nhập bằng tài khoản google
+                    </button>
+                    <form class="row mx-auto g-3 needs-validation mt-2 mt-lg-4 d-flex flex-column align-items-center align-items-lg-start"
+                         ng-submit="submitLoginFunc()">
+
+                         <div class="col p-0">
+                              <input type="text" class="form-control py-lg-3 px-lg-4" id="email" ng-model="username"
+                                   placeholder="username">
+                              <span class="text-danger text-lowercase text-break fs-6 bg-warning px-2"
+                                   ng-show="errValidate.errUsername">{{ errValidate.errUsername }}</span>
+                         </div>
+                         <div class="col mt-lg-4 p-0">
+                              <input type="password" class="form-control py-lg-3 px-lg-4" id="password"
+                                   ng-model="password" placeholder="Password">
+                              <span class="text-danger text-lowercase text-break fs-6 bg-warning px-2"
+                                   ng-show="errValidate.errPassword">{{ errValidate.errPassword }}</span>
+
+                         </div>
+                         <!-- <div class="col mt-lg-5 w-75 pe-lg-5 ps-0">
+                              <span class="fs-5" style="color: #d7afaf;">
+                                   By agree Sign up. I agree with you in
+                                   <b style="color: #ffffff;">
+                                        Terms of Service
+                                   </b>
+                                   and
+                                   <b style="color: #ffffff;">
+                                        Privacy Policy
+                                   </b>
+                              </span>
+                         </div> -->
+                         <div class="text-danger text-lowercase text-break fs-6 bg-warning px-2"
+                              ng-show="errValidate.others">{{ errValidate.others }}
+                         </div>
+                         <div class="col my-5 mb-0 px-0 text-center text-lg-start">
+                              <button class="btn w-100 rounded rounded-3 text-white py-lg-3 fs-4 text-capitalize"
+                                   style="background: #2dbe60;" type="submit">
+                                   Đăng nhập
+                              </button>
+                         </div>
+                         <div
+                              class="col mt-0 px-0 text-center text-lg-start d-flex flex-column flex-lg-row justify-content-between align-items-start">
+                              <button class="btn rounded rounded-3 text-info ps-lg-0">
+                                   Đăng ký
+                              </button>
+                              <button class="btn rounded rounded-3 text-warning pe-lg-0">
+                                   Quên mật khẩu
+                              </button>
+                         </div>
+                    </form>
+
+               </div>
+          </div>
+
+     </div>
+</div>
